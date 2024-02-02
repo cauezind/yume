@@ -1,0 +1,40 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+
+h2{
+text-align: center;
+margin: 2rem;
+}
+
+.produto-single img {
+
+    width: 10rem;
+    height: auto;
+}
+
+#produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#carrinho{
+    width: 20rem;
+    height: 100%;
+     display: flex;
+     flex-direction: column;
+     background-color: black;
+     color: white;
+     align-items: center;
+     justify-content: center;
+}
